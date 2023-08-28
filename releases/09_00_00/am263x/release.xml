@@ -2,6 +2,7 @@
 <manifest>
    <remote fetch="ssh://git@bitbucket.itg.ti.com/" 		name="comm"/>
    <remote fetch="https://github.com/TexasInstruments/" name="origin"/>
-   <project remote="origin"	path="motor_control_sdk"	name="motor-control-sdk"	revision="main"/>
-   <project remote="origin"	path="motor_control_setup"	name="motor-control-setup"	revision="main"/>
+   <project	remote="comm"	path="motor_control_sdk"	name="pindsw/motor_control_sdk"		revision="next"/>
+   <project remote="comm"	path="motor_control_setup"	name="pindsw/motor_control_setup"	revision="next"/>
+   <project remote="comm"	path="rtlibs"				name="MCUSDK/rtlibs"				revision="master"/>
 </manifest>
