@@ -2,6 +2,6 @@
 <manifest>
    <remote fetch="ssh://git@bitbucket.itg.ti.com/" 		name="comm"/>
    <remote fetch="https://github.com/TexasInstruments/" name="origin"/>
-   <project remote="comm"	path="motor_control_sdk"	name="pindsw/motor_control_sdk"		revision="refs/tags/REL.MCSDK.09.02.00.11"/>
-   <project remote="comm"	path="motor_control_setup"	name="pindsw/motor_control_setup"	revision="refs/tags/REL.MCSDK.09.02.00.11"/>
+   <project remote="comm"	path="motor_control_sdk"	name="pindsw/motor_control_sdk"		revision="refs/tags/REL.MCSDK.09.02.00.12"/>
+   <project remote="comm"	path="motor_control_setup"	name="pindsw/motor_control_setup"	revision="refs/tags/REL.MCSDK.09.02.00.12"/>
 </manifest>
