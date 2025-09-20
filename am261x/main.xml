@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/" 		name="comm"/>
+   <remote fetch="https://github.com/TexasInstruments/" name="origin"/>
+   <project remote="origin"	path="motor_control_sdk"	name="motor-control-sdk"	revision="main"/>
+   <project remote="origin"	path="motor_control_setup"	name="motor-control-setup"	revision="main"/>
+</manifest>
